@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  background: #020202;
+  cursor: crosshair;
+}
+canvas{display:block}
+h1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 5em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+  animation: 2s anim infinite alternate;
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.mysweet {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 9em;
+    font-weight: 900;
+    font-weight: bold;
+    top: 66%;
+    left: 49%;
+    color: #ffffff;
+    font-family: 'Shadows Into Light', cursive;
+  }
+.mysweet2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 9em;
+    font-weight: 900;
+    font-weight: bold;
+    top: 80%;
+    left: 49%;
+    color: #ffffff;
+    font-family: 'Shadows Into Light', cursive;
+  }
+
+h2 {
+  position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 13em;
+    font-weight: 900;
+    font-weight: bold;
+    font-family: 'Shadows Into Light', cursive;
+    top: 39%;
+    left: 49%;
+    color: #ffffff;
+}
+
+
+
+@keyframes anim {
+  0% {
+    color: black;
+    transform: rotate(0deg);
+  }
+  20%{ color: blue; }
+  40%{ color: green;}
+  60%{ color: orange;}
+  100% {
+    color: red;
+    transform: rotate(360deg);
+  }
+}
+
+
+
+@media all and (min-width: 420px) {
+    h1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 10em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+    text-align: center;
+    animation: 2s anim infinite alternate;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+
+  }
+
+  h2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 13em;
+    font-weight: 900;
+    font-weight: bold;
+    font-family: 'Shadows Into Light', cursive;
+    top: 39%;
+    left: 49%;
+    color: #ffffff;
+  }
+
+  .mysweet {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 9em;
+    font-weight: 900;
+    font-weight: bold;
+    top: 66%;
+    left: 49%;
+    color: #ffffff;
+    font-family: 'Shadows Into Light', cursive;
+  }
+
+  .mysweet2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 9em;
+    font-weight: 900;
+    font-weight: bold;
+    top: 80%;
+    left: 49%;
+    color: #ffffff;
+    font-family: 'Shadows Into Light', cursive;
+  }
+
+}
